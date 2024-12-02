@@ -8,10 +8,10 @@
 [6. Conclusions](#conclusions)\
 [7. Journal](#journal)\
 [8. Source Code](#source-code)\
-[9. Resources](#resources)\
+[9. Resources](#resources)
 
 ## Introduction
-This robot is designed to entertain by combining mobility and music. It can be controlled via Bluetooth using a Xbox PC controller, and it connects to Spotify over WiFi to play songs. In automatic mode, it navigates the room while avoiding obstacles using its sensors.
+This robot is designed to entertain by combining mobility and music. It can be controlled via Bluetooth using an Xbox PC controller, and it connects to Spotify over WiFi to play songs. In automatic mode, it navigates the room while avoiding obstacles using its sensors.
 
 Its purpose is to entertain people, adding fun and humor with a selection of songs.
 
