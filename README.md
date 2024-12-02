@@ -1,14 +1,14 @@
 # DiscoRobot
 ## Table of Contents
-[1. Introduction](#introduction)
-[2. Overview](#overview)
-[3. Hardware Design](#hardware-design)
-[4. Software Design](#software-design)
-[5. Final Results](#final-results)
-[6. Conclusions](#conclusions)
-[7. Journal](#journal)
-[8. Source Code](#source-code)
-[9. Resources](#resources)
+[1. Introduction](#introduction)\
+[2. Overview](#overview)\
+[3. Hardware Design](#hardware-design)\
+[4. Software Design](#software-design)\
+[5. Final Results](#final-results)\
+[6. Conclusions](#conclusions)\
+[7. Journal](#journal)\
+[8. Source Code](#source-code)\
+[9. Resources](#resources)\
 
 ## Introduction
 This robot is designed to entertain by combining mobility and music. It can be controlled via Bluetooth using a Xbox PC controller, and it connects to Spotify over WiFi to play songs. In automatic mode, it navigates the room while avoiding obstacles using its sensors.
