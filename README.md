@@ -15,7 +15,7 @@ This robot is designed to entertain by combining mobility and music. It can be c
 
 Its purpose is to entertain people, adding fun and humor with a selection of songs.
 
-The original idea was to make a Roomba that can be used with a controller, but making the vacuum mechanism can be quite difficult, so I dropped the vacuum idea.
+The original idea was to make a Roomba that can be used with a controller, but making the vacuum mechanism can be quite difficult, so I dropped the vacuum idea. Maybe I'll add this functionality later, if I have time.
 
 This robot can be used as a moveable speaker when you want extra ambiance around the house or at parties. It can also be used as a toy for children.
 
