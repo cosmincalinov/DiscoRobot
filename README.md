@@ -47,6 +47,9 @@ TBD - The conclusions will reflect on the challenges faced, solutions implemente
 ### Day 1 (02.12.2024):
 Started the documentation for the project. So far so good right now.
 
+### Day 2 (04.12.2024):
+Added the license for the project. Might change it later.
+
 ## Source Code
 TBD
 
