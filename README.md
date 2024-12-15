@@ -29,7 +29,7 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 - HC-SR04 Ultrasonic Sensor: Helps avoid obstacles in auto mode
 - Servo Motor: Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby
 - 4x DC Motor: Moves the Wheels
-- 4xWheels
+- 4x Wheels
 - Button: Chnages the state of the robot from auto to manual and vice-versa.
 - Buzzer
 - Xbox PC Controller: Enables manual control of the robot.
