@@ -17,18 +17,23 @@ Its purpose is to entertain people, adding fun and humor with a selection of son
 
 This robot can be used as a moveable speaker when you want extra ambiance around the house or at parties. It can also be used as a toy for children.
 
+This is a software and hardware heavy project.
+
 For future work, I would like to incorporate a vacuum feature similar to a Roomba's. This would combine functionality with fun.
 
 ## Overview
 TBD - The block diagram will illustrate the robot's main hardware components, communication pathways (Bluetooth, WiFi), and software interactions.
 
 ## Hardware Design
-- Raspberry Pi Pico WH: Acts as the main microcontroller.
-- PIR Sensor: Detects motion for automatic navigation.
-- Infrared Obstacle Senzor: Helps avoid obstacles in auto mode.
+- Raspberry Pi Pico WH: Acts as the main microcontroller
+- HC-SR04 Ultrasonic Sensor: Helps avoid obstacles in auto mode
+- Servo Motor: Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby
+- 4x DC Motor: Moves the Wheels
+- 4xWheels
+- Button: Chnages the state of the robot from auto to manual and vice-versa.
 - Buzzer
 - Xbox PC Controller: Enables manual control of the robot.
-- Bluetooth Module: Facilitates wireless communication with the controller.
+- Bluetooth Module: Facilitates wireless communication with the controller
   
 ## Software Design
 I have opted to use Visual Studio Code since it's the primary IDE for Rust development. Speaking of which, Rust with Embassy(embedded + async) is my primary choice when it comes to the programming language that is used for this project since Rust is very suitable for embedded systems, it is my favorite programming language and a long-time hobby of mine.
