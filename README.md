@@ -36,12 +36,12 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 | HC-SR04 Ultrasonic Sensor |     1    | [Link](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)   | -                    | Helps avoid obstacles in auto mode. |
 | Servo Motor               |     1    | -                                                                   | -                    | Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby. |      
 | DC Motor                  |     4    | -                                                                  | -                    | Moves the wheels. |
-| Wheels                    |     4    | -                                                                  | -                    | - |
+| Wheels                    |     4    | -                                                                  | -                    | Switches to automatic mode or to manual mode. |
 | Button                    |     1    | -                                                                  | -                    | Chnages the state of the robot from auto to manual and vice-versa. |
 | Buzzer                    |     1    | [Link](https://www.farnell.com/datasheets/2171929.pdf)                     | -                    | Plays the songs. |
 | Bluetooth Module HC-05    |     1    | [Link](https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)                                                                   | Optimus Digital      | Facilitates wireless communication with the controller |
 | Capacitor (100 μF)        |     1    | -                                                                  | -                    | Removes noise and stabilizes voltage for the Servo. |
-| Resistor (5k1 Ω)          |     1    | -                                                                  | -                    | - |
+| Resistor (5k1 Ω)          |     1    | -                                                                  | -                    | Used as a pull-down resistor for the button. |
 | Power Module              |     1    | -                                                                  | Robo Fun             | Provides 5V to the breadbords and Pico. |
 | Battery Holder            |     1    | -                                                                  | Optimus Digital      | Powers the Pico and the motor without a computer. | 
 | Xbox Controller           |     1    | -                                                                  | Altex                | Enables manual control of the robot. |
