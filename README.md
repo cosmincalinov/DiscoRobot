@@ -22,10 +22,11 @@ This is a software and hardware heavy project.
 For future work, I would like to incorporate a vacuum feature similar to a Roomba's. This would combine functionality with fun.
 
 ## Overview
+### Block Diagram
 TBD - The block diagram will illustrate the robot's main hardware components, communication pathways (Bluetooth, WiFi), and software interactions.
 
 ## Hardware Design
-### Block Diagram
+
 ### Electric Diagram
 ### Components
 | Component                 | Quantity | Datasheet                                                          | Place of Acquisition | Description |
