@@ -31,7 +31,8 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 ### Components
 | Component                 | Quantity | Datasheet                                                          | Place of Acquisition | Description |
 | :------------------------ | :------: | :----------------------------------------------------------------: | :------------------: | :---------: |
-| Raspberry Pi Pico WH      |     1    | [Link](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)      | Optimus Digital      | Acts as the main microcontroller.   |          
+| Raspberry Pi Pico WH      |     1    | [Link](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)      | Optimus Digital      | Acts as the main microcontroller.   |
+| Raspberry Pi Pico Debug Probe | 1    | -                                                                          | Optimus Digital      | Uploads the code to the Pico. | 
 | HC-SR04 Ultrasonic Sensor |     1    | [Link](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)   | -                    | Helps avoid obstacles in auto mode. |
 | Servo Motor               |     1    |                                                                    | -                    | Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby. |      
 | DC Motor                  |     4    | -                                                                  | -                    | Moves the wheels. |
@@ -66,6 +67,21 @@ Started the documentation for the project. So far so good right now.
 
 ### Day 2 (04.12.2024):
 Added the license for the project. Might change it later.
+
+### Day 3 (08.12.2024):
+Failed to initialize an Embassy Project. Such a nightmare.
+
+### Day 4 (09.12.2024):
+Finally, managed to initialize the library after hours of blood and sweat. I had to search through a four hour stream of a guy trying to solve the same problems as me and ended up finding the solution in a delisted video.
+
+### Day 5 (15.12.2024):
+Made the Block Diagram.
+
+### Day 6 (16.12.2024):
+Made the circuit for the robot. The cabling is a mess right now.
+
+### Day 7 (17.12.2024):
+Updated the documentation with the circuit diagram and added a component table.
 
 ## Source Code
 TBD
