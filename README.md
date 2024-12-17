@@ -28,7 +28,7 @@ For future work, I would like to incorporate a vacuum feature similar to a Roomb
 
 ## Hardware Design
 
-![circuit](https://github.com/user-attachments/assets/015dd630-fbd2-4f78-ba55-b12e458b60d1)
+![circuit](https://github.com/user-attachments/assets/88ec4bdd-8634-49de-808d-bb042b1cdfb2)
 
 ### Electric Diagram
 ![electric_diagram](https://github.com/user-attachments/assets/b9a2d9d8-ff3f-4020-ac35-92873e7376e2)
