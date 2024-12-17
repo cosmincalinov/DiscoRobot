@@ -28,29 +28,20 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 ### Block Diagram
 ### Electric Diagram
 ### Components
-| Component                 | Quantity | Datasheet                                                          | Place of Acquisition |
-| :------------------------ | :------: | :----------------------------------------------------------------: | -------------------: |
-| Raspberry Pi Pico WH      |     1    | https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf      | Optimus Digital      |           
-| HC-SR04 Ultrasonic Sensor |     1    | https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf   | -                    |
-| Servo Motor               |     1    |                                                                    | -                    |
-| DC Motor                  |     4    | -                                                                  | -                    |
-| Wheels                    |     4    | -                                                                  | -                    |
-| Button                    |     1    | -                                                                  | -                    |
-| Buzzer                    |     1    | https://www.farnell.com/datasheets/2171929.pdf                     | -                    |
-| Bluetooth Module HC-05    |     1    | https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf                                                                   | Optimus Digital      |
-| Capacitor (100 uF)        |     1    | -                                                                  | -                    | 
+| Component                 | Quantity | Datasheet                                                          | Place of Acquisition | Description |
+| :------------------------ | :------: | :----------------------------------------------------------------: | :------------------: | :---------: |
+| Raspberry Pi Pico WH      |     1    | [Link](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)      | Optimus Digital      | Acts as the main microcontroller   |          
+| HC-SR04 Ultrasonic Sensor |     1    | [Link](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)   | -                    | Helps avoid obstacles in auto mode |
+| Servo Motor               |     1    |                                                                    | -                    | Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby |      
+| DC Motor                  |     4    | -                                                                  | -                    | Moves the wheels |
+| Wheels                    |     4    | -                                                                  | -                    | 
+| Button                    |     1    | -                                                                  | -                    | Chnages the state of the robot from auto to manual and vice-versa |
+| Buzzer                    |     1    | [Link]https://www.farnell.com/datasheets/2171929.pdf                     | -                    | Plays the songs |
+| Bluetooth Module HC-05    |     1    | [Link] (https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)                                                                   | Optimus Digital      | Facilitates wireless communication with the controller |
+| Capacitor (100 uF)        |     1    | -                                                                  | -                    | Removes noise and stabilizes voltage for the Servo |
 | Resistor (5k1 O)          |     1    | -                                                                  | -                    |
-| Power Module              |     1    | -                                                                  | Robo Fun             |
-
-- Raspberry Pi Pico WH: Acts as the main microcontroller
-- HC-SR04 Ultrasonic Sensor: Helps avoid obstacles in auto mode
-- Servo Motor: Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby
-- 4x DC Motor: Moves the Wheels
-- 4x Wheels
-- Button: Chnages the state of the robot from auto to manual and vice-versa.
-- Buzzer
-- Xbox PC Controller: Enables manual control of the robot.
-- Bluetooth Module: Facilitates wireless communication with the controller
+| Power Module              |     1    | -                                                                  | Robo Fun             | Provides 5v to the breadbords and Pico |
+| Xbox Controller           |     1    | -                                                                  | Altex                | Enables manual control of the robot |
   
 ## Software Design
 I have opted to use Visual Studio Code since it's the primary IDE for Rust development. Speaking of which, Rust with Embassy(embedded + async) is my primary choice when it comes to the programming language that is used for this project since Rust is very suitable for embedded systems, it is my favorite programming language and a long-time hobby of mine.
