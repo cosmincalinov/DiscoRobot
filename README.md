@@ -25,6 +25,23 @@ For future work, I would like to incorporate a vacuum feature similar to a Roomb
 TBD - The block diagram will illustrate the robot's main hardware components, communication pathways (Bluetooth, WiFi), and software interactions.
 
 ## Hardware Design
+### Block Diagram
+### Electric Diagram
+### Components
+| Component                 | Quantity | Datasheet                                                          | Place of Acquisition |
+| :------------------------ | :------: | :----------------------------------------------------------------: | -------------------: |
+| Raspberry Pi Pico WH      |     1    | https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf      | Optimus Digital      |           
+| HC-SR04 Ultrasonic Sensor |     1    | https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf   | -                    |
+| Servo Motor               |     1    |                                                                    | -                    |
+| DC Motor                  |     4    | -                                                                  | -                    |
+| Wheels                    |     4    | -                                                                  | -                    |
+| Button                    |     1    | -                                                                  | -                    |
+| Buzzer                    |     1    | https://www.farnell.com/datasheets/2171929.pdf                     | -                    |
+| Bluetooth Module HC-05    |     1    | https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf                                                                   | Optimus Digital      |
+| Capacitor (100 uF)        |     1    | -                                                                  | -                    | 
+| Resistor (5k1 O)          |     1    | -                                                                  | -                    |
+| Power Module              |     1    | -                                                                  | Robo Fun             |
+
 - Raspberry Pi Pico WH: Acts as the main microcontroller
 - HC-SR04 Ultrasonic Sensor: Helps avoid obstacles in auto mode
 - Servo Motor: Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby
