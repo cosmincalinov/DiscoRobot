@@ -34,7 +34,7 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 | Raspberry Pi Pico WH      |     1    | [Link](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)      | Optimus Digital      | Acts as the main microcontroller.   |
 | Raspberry Pi Pico Debug Probe | 1    | -                                                                          | Optimus Digital      | Uploads the code to the Pico. | 
 | HC-SR04 Ultrasonic Sensor |     1    | [Link](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)   | -                    | Helps avoid obstacles in auto mode. |
-| Servo Motor               |     1    |                                                                    | -                    | Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby. |      
+| Servo Motor               |     1    | -                                                                   | -                    | Moves the Ultrasonic Sensor so that it ensures that no obstacles are nearby. |      
 | DC Motor                  |     4    | -                                                                  | -                    | Moves the wheels. |
 | Wheels                    |     4    | -                                                                  | -                    | - |
 | Button                    |     1    | -                                                                  | -                    | Chnages the state of the robot from auto to manual and vice-versa. |
