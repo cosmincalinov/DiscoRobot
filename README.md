@@ -36,8 +36,8 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 | DC Motor                  |     4    | -                                                                  | -                    | Moves the wheels |
 | Wheels                    |     4    | -                                                                  | -                    | 
 | Button                    |     1    | -                                                                  | -                    | Chnages the state of the robot from auto to manual and vice-versa |
-| Buzzer                    |     1    | [Link]https://www.farnell.com/datasheets/2171929.pdf                     | -                    | Plays the songs |
-| Bluetooth Module HC-05    |     1    | [Link] (https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)                                                                   | Optimus Digital      | Facilitates wireless communication with the controller |
+| Buzzer                    |     1    | [Link](https://www.farnell.com/datasheets/2171929.pdf)                     | -                    | Plays the songs |
+| Bluetooth Module HC-05    |     1    | [Link](https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)                                                                   | Optimus Digital      | Facilitates wireless communication with the controller |
 | Capacitor (100 uF)        |     1    | -                                                                  | -                    | Removes noise and stabilizes voltage for the Servo |
 | Resistor (5k1 O)          |     1    | -                                                                  | -                    |
 | Power Module              |     1    | -                                                                  | Robo Fun             | Provides 5v to the breadbords and Pico |
