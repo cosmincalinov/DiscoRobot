@@ -42,7 +42,7 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 | Bluetooth Module HC-05    |     1    | [Link](https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf)                                                                   | Optimus Digital      | Facilitates wireless communication with the controller |
 | Capacitor (100 μF)        |     1    | -                                                                  | -                    | Removes noise and stabilizes voltage for the Servo. |
 | Resistor (5k1 Ω)          |     1    | -                                                                  | -                    | - |
-| Power Module              |     1    | -                                                                  | Robo Fun             | Provides 5v to the breadbords and Pico. |
+| Power Module              |     1    | -                                                                  | Robo Fun             | Provides 5V to the breadbords and Pico. |
 | Battery Holder            |     1    | -                                                                  | Optimus Digital      | Powers the Pico and the motor without a computer. | 
 | Xbox Controller           |     1    | -                                                                  | Altex                | Enables manual control of the robot. |
 | Breadboard ( 830 slots )  |     2    | -                                                                  | Robo Fun             | -                                    |
