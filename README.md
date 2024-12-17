@@ -27,7 +27,11 @@ TBD - The block diagram will illustrate the robot's main hardware components, co
 
 ## Hardware Design
 
+![circuit](https://github.com/user-attachments/assets/015dd630-fbd2-4f78-ba55-b12e458b60d1)
+
 ### Electric Diagram
+![electric_diagram](https://github.com/user-attachments/assets/b9a2d9d8-ff3f-4020-ac35-92873e7376e2)
+
 ### Components
 | Component                 | Quantity | Datasheet                                                          | Place of Acquisition | Description |
 | :------------------------ | :------: | :----------------------------------------------------------------: | :------------------: | :---------: |
