@@ -23,7 +23,8 @@ For future work, I would like to incorporate a vacuum feature similar to a Roomb
 
 ## Overview
 ### Block Diagram
-TBD - The block diagram will illustrate the robot's main hardware components, communication pathways (Bluetooth, WiFi), and software interactions.
+
+![block_diagram](https://github.com/user-attachments/assets/6a542cdb-7a4a-4f57-b136-b0680c6028ed)
 
 ## Hardware Design
 
