@@ -4,11 +4,12 @@
 [2. Overview](#overview)\
 [3. Hardware Design](#hardware-design)\
 [4. Software Design](#software-design)\
-[5. Final Results](#final-results)\
-[6. Conclusions](#conclusions)\
-[7. Journal](#journal)\
-[8. Source Code](#source-code)\
-[9. Resources](#resources)
+[5. Setup Instructions](#software-design)\
+[6. Final Results](#final-results)\
+[7. Conclusions](#conclusions)\
+[8. Journal](#journal)\
+[9. Source Code](#source-code)\
+[10. Resources](#resources)
 
 ## Introduction
 This robot is designed to entertain by combining mobility and music. It can be controlled via Bluetooth using an Xbox PC controller, and it connects to Spotify over WiFi to play songs. In automatic mode, it navigates the room while avoiding obstacles using its sensors.
@@ -22,6 +23,10 @@ This is a software and hardware heavy project.
 For future work, I would like to incorporate a vacuum feature similar to a Roomba's. This would combine functionality with fun.
 
 ## Overview
+### Features
+- Ultrasonic sensor: avoids obsacles
+- Bluetooth module + Xbox Controller: manual control
+- Raspberry Pi Pico WH's Wi-Fi Chip + buzzer: access to songs via the Spotify API.
 ### Block Diagram
 
 ![block_diagram](https://github.com/user-attachments/assets/6a542cdb-7a4a-4f57-b136-b0680c6028ed)
@@ -33,7 +38,7 @@ For future work, I would like to incorporate a vacuum feature similar to a Roomb
 ### Electric Diagram
 ![electric_diagram](https://github.com/user-attachments/assets/b9a2d9d8-ff3f-4020-ac35-92873e7376e2)
 
-### Components
+### Components (BoM)
 | Component                 | Quantity | Datasheet                                                          | Place of Acquisition | Description |
 | :------------------------ | :------: | :----------------------------------------------------------------: | :------------------: | :---------: |
 | Raspberry Pi Pico WH      |     1    | [Link](https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf)      | Optimus Digital      | Acts as the main microcontroller.   |
@@ -59,6 +64,32 @@ I have opted to use Visual Studio Code since it's the primary IDE for Rust devel
 The robot's software is divided into two main modes: manual and automatic. In manual mode, it processes Bluetooth inputs from the Xbox controller to move the robot. In automatic mode, it relies on sensor data to avoid obstacles. Additionally, the WiFi module communicates with Spotify's API to stream music seamlessly.
 
 Rust, paired with the Embassy crate, is ideal for handling the robot's concurrent tasks like sensor polling and music streaming. Its safety features, like the Borrow Checker, ensure efficient and error-free code. Let's not forget about its smart and friendly compiler.
+
+## Setup Instructions
+| Componenet | Pin Name | Connected To |
+| :--------- | :------: | -----------: |
+| Bluetooth Module | GND | GND |
+|                  | VCC | 3.3V |
+|                  | RXD | PIN 1 |
+|                  | TXD | PIN 2 |
+| DC Motor 1       | +   | PIN 6 |
+|                  | -   | GND   |
+| DC Motor 2       | +   | PIN 16 |
+|                  | -   | GND   |
+| DC Motor 3       | +   | PIN 22 |
+|                  | -   | GND   |
+| DC Motor 4       | +   | PIN 25 |
+|                  | -   | GND   |
+| Servo            | +   | 5V |
+|                  | -   | GND   |
+|                  | PWM | PIN 20 |
+| Ultrasonic Sensor | + | 5V |
+|                   | - | GND |
+|                  | ECHO | PIN 29 |
+|                  | TRIG | PIN 30 |
+| Buzzer           | +    | PIN 24 |
+|                  | -    | GND    |
+
 
 ## Final Results
 TBD - This section will document the robot's performance, including its speed, responsiveness, and user feedback.
